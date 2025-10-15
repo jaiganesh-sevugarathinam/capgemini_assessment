@@ -1,16 +1,38 @@
-# React + Vite
+Ask:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ A retailer offers a rewards program to its customers, awarding points based on each recorded purchase. 
 
-Currently, two official plugins are available:
+ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each     transaction.
 
-## React Compiler
+    (e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 
 
-## Expanding the ESLint configuration
+    Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Requirements:
+
+    • Use React JS (do not use TypeScript)
+
+    • Simulate an asynchronous API call to fetch data
+
+    • No redux
+
+    • Make up a data set to best demonstrate your solution
+
+    • Check solution into GitHub
+
+
+How to execute?
+
+1. git clone https://github.com/jaiganesh-sevugarathinam/capgemini_assessment.git
+
+2. navigate to capgemini_assessment folder
+
+3. npm install
+
+4. npm run dev
+
+5. from browser, http://localhost:5173/
